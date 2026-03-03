@@ -3,7 +3,7 @@ package repository
 import (
 	"database/sql"
 
-	_ "modernc.org/sqlite" // Must be imported for side effects
+	_ "modernc.org/sqlite" 
 )
 
 // initDB initializes the SQLite database and ensures required tables exist.
